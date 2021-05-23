@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1- what is the name scientific name of black fungus " />
+
+        <RadioGroup
+            android:id="@+id/radiogroup1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mucormycosis" />
+
+            <RadioButton
+                android:id="@+id/name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wrw" />
+
+            <RadioButton
+                android:id="@+id/name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="y" />
+
+            <RadioButton
+                android:id="@+id/name4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1- what is the value of PIE " />
+
+        <RadioGroup
+            android:id="@+id/radiogroup2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/pie1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.354" />
+
+            <RadioButton
+                android:id="@+id/pie2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.14" />
+
+            <RadioButton
+                android:id="@+id/pie3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.345" />
+
+            <RadioButton
+                android:id="@+id/pie4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="none of the above" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1- Is x%y = y%x ?" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/ans1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="yes" />
+
+            <RadioButton
+                android:id="@+id/ans2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="may be" />
+
+            <RadioButton
+                android:id="@+id/ans3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="not sure" />
+
+            <RadioButton
+                android:id="@+id/ans4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="no" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1- A is what % of B " />
+
+        <RadioGroup
+            android:id="@+id/radiogroup4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/what1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AB/100" />
+
+            <RadioButton
+                android:id="@+id/what2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100/AB" />
+
+            <RadioButton
+                android:id="@+id/what3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100A/B" />
+
+            <RadioButton
+                android:id="@+id/what4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BA/100 " />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="submit"
+            app:cornerRadius="100dp" />
+
+
+    </LinearLayout>
+</ScrollView>
